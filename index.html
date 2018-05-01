@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="curri.css" type="text/css" rel="stylesheet" />'
+</head>
+
+<body>
+	<div id="data">
+		<h1 style="color:rgb(0,176,246)">Datos Personales</h1>
+		<p style="color:rgb(0,176,246)">Bryan Alexis Mejia</p>
+		<ul class="lista">
+			<li>Edad: 21 años</li>
+			<li>Fecha de Nac. 09/10/1996</li>
+		</ul>
+		<div id="img">
+			<img src="IMG_6253.jpg" width="160" height="160" />
+		</div>
+		<div id="Exp">
+			<h2 style="color:rgb(0,176,246)">Experiencia</h2>
+			<ul class="lista">
+				<li>Lpp</li>
+				<li>Java</li>
+				<li>C++</li>
+				<li>Word</li>
+				<li>Excel</li>
+				<li>PowerPoint</li>
+			</ul>
+		</div>
+		<div id="Hobb">
+			<h2 style="color:rgb(0,176,246)">Hobbies</h2>
+			<ul class="lista">
+				<li>Ajedrez </li>
+				<li>Ver videos en youtube</li>
+				<li>Escuchar musica</li>
+				<li>Jugar Videojuegos</li>
+				<li>Dormir </li>
+				<li>Cantar(?) </li>
+			</ul>
+		</div>
+		<div id="ref">
+			<h2 style="color:rgb(0,176,246)">Referencias</h2>
+			<ul class="lista">
+				<li> El Cris </li>
+				<li> El YouTuber y DjAlex </li>
+				<li> El Amiguito Machado </li>
+			</ul>
+		</div>
+		<div id="counter"></div>
+
+		<script>
+			var n = localStorage.getItem('on_load_counter');
+			if (n == null) {
+				n = 0;
+			}
+			n++;
+			localStorage.setItem("on_load_counter", n);
+			document.getElementById('counter').innerHTML = "Has visitado esta pagina: " + n;
+		</script>
+	</div>
+</body>
+</html>
