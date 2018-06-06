@@ -4,16 +4,11 @@
 }
 
 body{
-	/*background-image: url("background-blur-clean-531880.jpg");
-	background-size:    cover;
-	background-repeat:  no-repeat;
-	background-position: center center fixed;*/
-
 	background: url("road_field_horizon_mountains_clouds_sky_7843x4462.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
 	padding: 0px;
 	margin: 0px;
