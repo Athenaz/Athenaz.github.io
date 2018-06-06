@@ -4,13 +4,15 @@
 }
 
 body{
-	font-family: Times, Verdana, sans-serif;
-	list-style: inside;
-	text-indent: 0.4cm;
-	background-image: url("road_field_horizon_mountains_clouds_sky_7843x4462.jpg");
+	background-image: url("background-blur-clean-531880.jpg");
 	background-size:    cover;
 	background-repeat:  no-repeat;
 	background-position:    center center;
+	padding: 0px;
+	margin: 0px;
+	font-family: Times, Verdana, sans-serif;
+	list-style: inside;
+	text-indent: 0.4cm;
 }
 #data{
 	position: relative;
